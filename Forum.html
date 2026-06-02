@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Form" content="This is a html based forum that can take user's Information">
+    <title>Personal information Form<form action=""></form>
+    </title>
+</head>
+
+<body>
+    <h1>1.Personal information Forum</h1>
+    <div>
+        <label for="name"> Full name</label>
+        <input type="text" placeholder="Enter your name"><br>
+        <label for="DOB"> Date of Birth </label>
+        <input type="date"><br>
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label for="nationality">Nationality</label>
+        <select name="nationality" id="nationality">
+            <option value="indian">Indian</option>
+            <option value="american">American</option>
+            <option value="Canada">Canada</option>
+            <option value="Uk">United Kingdom</option>
+            <option value="Australia">Australia</option>
+            <option value="turkey">Turkey</option>
+            <option value="KSA">Saudi Arabia</option>
+            <option value="Qatar">Qatar</option>
+        </select><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91 9187654321" maxlength="10">
+    </div>
+    <h1>2. Educational Background</h1>
+    <div>
+        <label for="College">College Name</label>
+        <input type="text" placeholder="Xavier College"><br>
+        <label for="marks">Marks</label>
+        <input type="number" id="marks" name="marks" placeholder="Enter Your Percentage" width="400px"><br>
+        <label for="certificate">Upload Certificate</label>
+        <input type="file" id="certificate" name="certificate" accept=".pdf,.jpg,.png">
+    </div>
+    <h1>3.Course/Program Details</h1>
+    <label for="course" Course Details></label>
+    <textarea name="course" id="course" rows="5" cols="50" placeholder="Enter your Course Details"
+        style="resize: none;"></textarea>
+    <h1>4.Guardian Details</h1>
+    <div>
+        <label for="name">Father's Name</label>
+        <input type="text" placeholder="Enter Father's Name"><br>
+        <label for="occupation">Profession</label>
+        <input type="text" placeholder="ex- Teacher/Engineer"><br>
+        <label for="phone">Contact Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Father's Mobile Number" maxlength="10">
+    </div>
+    <h1>5.Documents Required</h1>
+    <div>
+        <label for="photogrpah">Passport Size Photograph</label>
+        <input type="file" accept="image/*"><br>
+        <label for="gov id">ID Proof</label>
+        <select name="gov id" id="gov id">Seclect Gov ID
+            <option value="adhar">Adhar Card</option>
+            <option value="PAN">PAN Card</option>
+        </select><br>
+        <label>Upload ID Proof:</label>
+        <input type="file" accept=".pdf"><br>
+        <label for="">Academic Certificate</label>
+        <input type="file" accept=".pdf"><br>
+        <h1>6.Medical Information</h1>
+        <div>
+            <label for="bloodgroup">Blood Group:</label>
+            <select id="bloodgroup" name="bloodgroup">
+                <option value="">Select Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select><br>
+            <label for="health">Health Condition:</label>
+            <select id="health" name="health">
+                <option value="Excellent">Excellent</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+            </select><br>
+            <a href="tel:112">
+                📞 Emergency Call (112)
+            </a>
+        </div>
+        <h1>7.Declaration & Signature</h1>
+        <div>
+            <form>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I have read and understand all the Terms and Conditions of TechByHaneef</label><br>
+                <label for="">Upload the Signature</label>
+                <input type="file" accept=".pdf"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+</body>
+</html>
